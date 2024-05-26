@@ -55,31 +55,35 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
+
 Description of the project in details.
+
 ### Why?
 
 The project involves creating a personal resume website using HTML and CSS, serving as a platform to showcase professional skills, experiences, and qualifications.
-
-
 
 ### Purpose
 
 The purpose of this endeavor is to present a visually appealing and informative online portfolio that highlights key achievements and capabilities to potential employers or collaborators.
 
 ### Key Components
+
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
+
 - MultiPage Website
 - Navbar
 
-
 ### Technology
+
 <!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules and Principles
-1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
+
+1. Always use **_WD-_** in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use 'index.html' as the filename.
 3. File Structure to follow
 
@@ -90,7 +94,7 @@ WD-Manalastas
 |   |   └─ style.css
 |   └─ img
 |       └─ annagraem.jpg
-|      
+|
 └─ pages
 |  └─ resume
 |  |   └─ assets
@@ -115,9 +119,10 @@ WD-Manalastas
 ## Resources
 
 <!-- TODO: Add References -->
-Icon | Icon for instagram |<a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Freepik - Flaticon</a> 
-Icon | Icon for facebook |<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
-Icon | Icon for email |<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
-Icon | Icon for cellphone numberr |<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Creaticca Creative Agency - Flaticon</a>
-Color palette| reference for color in the website | https://www.color-hex.com/color-palette/14887
-Navbar| reference how to make a navbar | https://www.w3schools.com/howto/howto_js_topnav.asp
+<p>Icon | Icon for instagram |<a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Freepik - 
+Flaticon</a> </p>
+<p>Icon | Icon for facebook |<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a></p>
+<p>Icon | Icon for email |<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a></p>
+<p>Icon | Icon for cellphone numberr |<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Creaticca Creative Agency - Flaticon</a></p>
+<p>Color palette| reference for color in the website | https://www.color-hex.com/color-palette/14887</p>
+<p>Navbar| reference how to make a navbar | https://www.w3schools.com/howto/howto_js_topnav.asp</p>
