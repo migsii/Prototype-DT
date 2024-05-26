@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.education,
+.experience {
+  margin-bottom: 20px;
+}
+
+.education h3,
+.experience h3 {
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  padding-left: 20px;
+}
+
+.navheader {
+  background-color: #001eff;
+  color: #fff;
+  padding: 20px 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navheader h1 {
+  margin: 0;
+}
+
+.navheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navheader nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navheader nav ul li:first-child {
+  margin-left: 0;
+}
+
+.navheader nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navheader nav ul li a:hover {
+  color: #ccc;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.resume-title {
+  display: flex;
+  align-items: center;
+}
