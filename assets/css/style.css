@@ -3,7 +3,9 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #00b8ff;
+  min-height: 100vh; /* Ensure body takes up at least the full height of the viewport */
+  display: flex;
+  flex-direction: column; /* Allows the footer to stick to the bottom */
 }
 
 .container {
@@ -17,15 +19,14 @@ body {
   align-items: center;
 }
 .navheader {
-  background-color: #001eff;
-  color: #fff;
-  padding: 20px 0;
+  color: #008912;
+  padding: 20px;
 }
 
 .navheader h1 {
   margin: 0;
+  text-decoration: underline;
 }
-
 .navheader nav ul {
   list-style-type: none;
   margin: 0;
@@ -35,6 +36,9 @@ body {
 .navheader nav ul li {
   display: inline-block;
   margin-left: 20px;
+  border: 2px solid #008912;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .navheader nav ul li:first-child {
@@ -42,8 +46,10 @@ body {
 }
 
 .navheader nav ul li a {
-  color: #fff;
+  color: #008912;
   text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
@@ -52,10 +58,14 @@ body {
 }
 
 .main-content {
+  display: flex;
   padding: 20px;
-  background: #fff;
+  color: #008912;
+  background-color:#ffffff ;
   margin-top: 30px;
+  margin-bottom: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #008912;
 }
 
 .section {
@@ -63,7 +73,7 @@ body {
 }
 
 .section h2 {
-  border-bottom: 2px solid #77a8d8;
+  border-bottom: 2px solid #ffffff;
   padding-bottom: 5px;
 }
 
@@ -86,6 +96,10 @@ button:hover {
 
 .text {
   flex: 1;
+  font-size: x-large;
+  color: #008912;
+  text-align: center;
+  align-self: center;
 }
 
 .gif {
@@ -97,4 +111,71 @@ button:hover {
 .gif img {
   max-width: 100%; 
   max-height: 100%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center the items horizontally */
+}
+
+.contact-info ul li {
+  display: inline-block; /* Display items horizontally */
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.contact-info ul li img {
+  margin-right: 5px; /* Adjust margin between image and text */
+  vertical-align: middle; /* Align image vertically */
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+}
+
+.contact-info ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.logo img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  background-color: #00ab12; /* Dark green background */
+}
+.f-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

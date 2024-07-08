@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>Service</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -11,13 +11,13 @@
       <img src="assets/img/logo.png" alt="Logo" />
     </div>
     <header class="navheader">
-      <div class="container">
-        <h1>Home</h1>
+      <div class="h-container">
+        <h1>Segregate with us!</h1>
         <nav>
           <ul>
+            <li><a href="/">Home</a></li>
             <li><a href="/pages/about-us">ABOUT US</a></li>
             <li><a href="/pages/about-us">JOIN OUR TEAM</a></li>
-            <li><a href="/pages/contact">CONTACT US</a></li>
           </ul>
         </nav>
       </div>
@@ -27,25 +27,43 @@
         <section class="section">
           <div class="content-wrapper">
             <div class="text">
-              <p>
-                Welcome to Henka, your trusted partner in efficient and
-                sustainable waste management and disposal. Our comprehensive
-                services ensure responsible handling and recycling, keeping your
-                community clean and green. Choose Henka for a cleaner tomorrow,
-                today.
-              </p>
+              <h2>Book now!</h2>
+              <p>Fill out the form below to connect with our partners.</p>
+
+              <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="attachment">Attach Image:</label>
+                  <input type="file" id="attachment" name="attachment" accept="image/*">
+                </div>
+                <button type="submit">Send Message</button>
+              </form>
             </div>
             <div class="gif">
-              <a href="/pages/service">
                 <img src="assets/img/button.png" alt="button" />
-              </a>
             </div>
           </div>
         </section>
       </div>
     </div>
     <footer class="footer">
-      <div class="f-container">
+      <div class="container">
         <div class="contact-info">
           <ul>
             <li>

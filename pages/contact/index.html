@@ -3,44 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div class="logo">
+      <img src="assets/img/logo.png" alt="Logo" />
+    </div>
     <header class="navheader">
-      <div class="container">
-        <h1>Contact Me!</h1>
+      <div class="h-container">
+        <h1>Contact Us</h1>
         <nav>
           <ul>
-            <li><a href="/WD-Manalastas/">Home</a></li>
-            <li><a href="/WD-Manalastas/pages/resume/">Resume</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/about-us">ABOUT US</a></li>
+            <li><a href="/pages/about-us">JOIN OUR TEAM</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="contact-container">
-      <section id="home" class="section">
-        <h1>Phone</h1>
-        <img src="assets/img/phone.png" alt="phone" />
-        <p>0921-686-2***</p>
-        <h1>Email</h1>
-        <img src="assets/img/email.png" alt="email" />
-        <p>migsiimanalastas@yahoo.com</p>
-        <h1>Facebook</h1>
-        <img src="assets/img/facebook.png" alt="facebook" />
-        <p>
-          <a href="https://www.facebook.com/i2fbnimigwel" target="_blank"
-            >https://www.facebook.com/i2fbnimigwel</a
-          >
-        </p>
-        <h1>Instagram</h1>
-        <img src="assets/img/instagram.png" alt="instagram" />
-        <p>
-          <a href="https://www.instagram.com/i2nmnignimigwel" target="_blank"
-            >https://www.instagram.com/i2nmnignimigwel</a
-          >
-        </p>
-      </section>
+    <div class="container">
+      <div class="main-content">
+        <section class="section">
+          <div class="content-wrapper">
+            <div class="text">
+              <h2>Get in Touch</h2>
+              <p>Fill out the form below to reach out to us.</p>
+
+              <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="contact-info">
+          <ul>
+            <li>
+              <img src="assets/img/email.png" alt="Email" />
+              <a href="mailto:info@opus.com">info@opus.com</a>
+            </li>
+            <li>
+              <img src="assets/img/facebook.png" alt="Facebook" />
+              <a href="https://www.facebook.com/opus" target="_blank"
+                >Opus Facebook</a
+              >
+            </li>
+            <li>
+              <img src="assets/img/instagram.png" alt="Instagram" />
+              <a href="https://www.instagram.com/opus" target="_blank"
+                >Opus Instagram</a
+              >
+            </li>
+            <li>
+              <img src="assets/img/phone.png" alt="Phone" />
+              <span>123-456-7890</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
